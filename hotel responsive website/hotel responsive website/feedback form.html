@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eMitra Center Feedback Form</title>
+<Style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+/* Header styles */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('background2.jpg');
+    background-size: cover;
+    color: #0b0a0a;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    margin-top: 0;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #222;
+    color: #fff;
+}
+</Style>
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">Hotel Hare Krishna</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="room.html">Rooms</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <marquee><h1>Welcome to Hotel  Hare Krishna</h1></marquee>
+        <p>Your ultimate destination for luxury and relaxation.</p>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</section> 
+<div class="container">
+  <h2>Feedback Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" required>
+    
+    <label for="rating">Rating</label>
+    <select id="rating" name="rating">
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+    </select>
+    
+    <label for="feedback">Feedback</label>
+    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<footer>
+  <p>&copy; 2023 Hotel Hare Krishna. All rights reserved.</p>
+</footer> 
+</body>
+</html>
